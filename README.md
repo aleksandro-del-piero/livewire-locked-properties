@@ -75,7 +75,9 @@ class TestLivewire extends Component
 If a component has both a method and a property, the method will take precedence.
 
 The package uses a system of hooks via traits
+
 ##Important
+
 
 ###The value of protected properties is stored in the session. When recording to a session, a key is generated based on the component name.
 
