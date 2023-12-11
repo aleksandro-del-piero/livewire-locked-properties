@@ -1,0 +1,25 @@
+{
+    "name": "aleksandro-del-piero/livewire-locked-properties",
+    "version": "1.0.0",
+    "description": "Livewire locked properties",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandro Del Piero",
+            "email": "aleksandrodelpieros@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AleksandroDelPiero\\LivewireLockedProperties\\": "src"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^10.5"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
