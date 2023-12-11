@@ -76,10 +76,10 @@ If a component has both a method and a property, the method will take precedence
 
 The package uses a system of hooks via traits
 
-##Important
+## Important
 
 
-###The value of protected properties is stored in the session. When recording to a session, a key is generated based on the component name.
+### The value of protected properties is stored in the session. When recording to a session, a key is generated based on the component name.
 
 ## For this reason, if you place two identical components on the page, the value of the locked property will be the value of the last component rendered
 
