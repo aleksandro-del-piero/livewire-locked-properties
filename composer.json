@@ -21,5 +21,12 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AleksandroDelPiero\\LivewireLockedProperties\\LivewireLockedPropertiesServiceProvider"
+            ]
+        }
     }
 }
